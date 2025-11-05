@@ -47,7 +47,6 @@
     margin-right: 84px;
     border: 1px solid black;
     font-size: 24px;
-    letter-spacing: 0px;
     line-height: 30px;
     padding-bottom: 10px;
     padding-left: 16px;
@@ -58,7 +57,7 @@
 .delete-btn{
     width: 42px;
     height: 39px;
-    background-image: url('images/vector7.svg'), url("images/vector8.svg");
+    background-image: url('./images/vector7.svg'), url("./images/vector8.svg");
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
