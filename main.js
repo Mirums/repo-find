@@ -70,7 +70,7 @@ function debounce(fn, delay) {
 async function findRepos(query) {
     const response = await fetch(`https://api.github.com/search/repositories?q=${query}`)
     const data = await response.json();
-    return data.items;
+    return data.items
 }
 
 findWords(input)
