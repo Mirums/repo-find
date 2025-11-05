@@ -32,7 +32,7 @@ function seeHints(wordsHints, inputEl) {
             })
         }
     } else {
-        hints.innerHTML = '';
+        hints.innerHTML = ''
     }
 }
 
