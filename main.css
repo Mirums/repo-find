@@ -1,6 +1,4 @@
-button{
 
-}
 .search-container {
     display: flex;
     flex-direction: column;
@@ -17,7 +15,6 @@ button{
     margin-right: 84px;
     margin-top: 62px;
     font-size: 48px;
-    weight: 400;
 }
 #hints{
     margin-bottom: 50px;
@@ -61,7 +58,7 @@ button{
 .delete-btn{
     width: 42px;
     height: 39px;
-    background-image: url('/images/vector7.svg'), url("/images/vector8.svg");
+    background-image: url('images/vector7.svg'), url("images/vector8.svg");
     background-size: contain;
     background-repeat: no-repeat;
     border: none;
